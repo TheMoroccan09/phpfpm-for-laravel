@@ -1,29 +1,21 @@
 # PHPFPM-FOR-LARAVEL
+A docker image to create a laravel projects
 
->   From php:7.0-fpm
+### Built with 
+ * PHP v7.2
+ * Extentions:
+  * OpenSSL
+  * PDO
+  * Mbstring 
+  * Tokenizer
+  * Ctype
+  * JSON
+  * BCMath
+  * gd
+  * Others
 
-+   extensions php
-    +   dg
-    +   pdo_mysql
-    +   mysqli
-    +   mycrypt
-    +   mbstring
-    +   zip
-    +   xml
-    
-+ Tools
-    +   Composer
-    +   Laravel installer
-    
-+ Common
-    +   zip
-    +   unzip
-    +   wget
-    +   curl
-    +   git
-    +   nano
-    +   openssl
-    +   cron
-    
-
+### How to run it 
+```
+	docker run --name php themoroccan09/phpfpm-for-laravel
+```
 
